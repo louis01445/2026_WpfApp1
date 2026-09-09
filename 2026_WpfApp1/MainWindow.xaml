@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2026_WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="week 01" Height="450" Width="800" Background="Orange">
     <Grid>
-
+        <Label Content="hello world" FontSize="50px" HorizontalAlignment="Right" Margin="20px"></Label>
+        <Label Content="好難玩" FontSize="50px" FontWeight="Heavy" Foreground="Black" HorizontalAlignment="Left" Margin="20px"></Label>
+        
     </Grid>
 </Window>
