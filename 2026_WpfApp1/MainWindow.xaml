@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="week 01" Height="450" Width="800" Background="Orange">
     <Grid>
-        <Label Content="hello world" FontSize="50px" HorizontalAlignment="Right" Margin="20px" Foreground="red"></Label>
+        <Label Content="hello world" FontSize="50px" HorizontalAlignment="Right" Margin="20px" Foreground="red" RenderTransformOrigin="0.534,0.509"></Label>
         <Label Content="好難玩" FontSize="50px" FontWeight="Heavy" Foreground="Black" HorizontalAlignment="Left" Margin="20px"></Label>
-        
+
     </Grid>
 </Window>
