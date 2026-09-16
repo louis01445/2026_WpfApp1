@@ -7,8 +7,41 @@
         mc:Ignorable="d"
         Title="week 01" Height="450" Width="800" Background="Orange">
     <Grid>
-        <Label Content="hello world" FontSize="50px" HorizontalAlignment="Right" Margin="20px" Foreground="red" RenderTransformOrigin="0.534,0.509"></Label>
-        <Label Content="好難玩" FontSize="50px" FontWeight="Heavy" Foreground="Black" HorizontalAlignment="Left" Margin="20px"></Label>
+        <Label Content="hello world" FontSize="50px" HorizontalAlignment="Right" Margin="0,10,511,321" Foreground="red" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.001"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="姓名" HorizontalAlignment="Left" VerticalAlignment="Top" Width="34" Foreground="Red" RenderTransformOrigin="0.5,0.5" Margin="19,141,0,0">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.544"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.385"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="55,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="電話" HorizontalAlignment="Left" VerticalAlignment="Top" Width="34" Foreground="Red" RenderTransformOrigin="0.52,0.312" Margin="19,181,0,0">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.544"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.391"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="phoneTextBox"  HorizontalAlignment="Left" Margin="55,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="送出" HorizontalAlignment="Left" Margin="192,164,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.13,0.843" x:Name="okbutton" Click="okbutton_Click"/>
+        <Label Content="喵" FontSize="15px" HorizontalAlignment="Left" Foreground="red" Width="139" RenderTransformOrigin="0.114,0.849" Height="30" Margin="19,0,0,290" VerticalAlignment="Bottom"/>
+
 
     </Grid>
 </Window>
