@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2026_WpfApp1"
         mc:Ignorable="d"
-        Title="week 01" Height="450" Width="800" Background="Orange">
-    <Grid>
+        Title="week 01" Height="581" Width="800" Background="Orange">
+    <Grid Height="435" VerticalAlignment="Top">
         <Label Content="hello world" FontSize="50px" HorizontalAlignment="Right" Margin="0,10,511,321" Foreground="red" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
@@ -40,7 +40,12 @@
         </Label>
         <TextBox x:Name="phoneTextBox"  HorizontalAlignment="Left" Margin="55,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="送出" HorizontalAlignment="Left" Margin="192,164,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.13,0.843" x:Name="okbutton" Click="okbutton_Click"/>
-        <Label Content="喵喵" FontSize="15px" HorizontalAlignment="Left" Foreground="red" Width="139" RenderTransformOrigin="0.114,0.849" Height="30" Margin="19,0,0,290" VerticalAlignment="Bottom"/>
+        <Label Content="喵" FontSize="15px" HorizontalAlignment="Left" Foreground="red" Width="139" RenderTransformOrigin="0.114,0.849" Height="30" Margin="19,0,0,290" VerticalAlignment="Bottom"/>
+        <Label Content="輸入一個數值" HorizontalAlignment="Left" Margin="19,218,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <TextBlock x:Name="ansnumber" FontFamily="Consolas" HorizontalAlignment="Center" Margin="0,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-1.658,-0.426" Height="187" Width="763" Background="Pink" FontSize="10"/>
+        <Button Content="算數" x:Name="number_apk" HorizontalAlignment="Left" Margin="192,221,0,0" VerticalAlignment="Top" Click="number_apk_Click" RenderTransformOrigin="0.961,0.575"/>
+        <TextBox x:Name="number_double" Margin="106,223,625,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="69"/>
+
 
 
     </Grid>
