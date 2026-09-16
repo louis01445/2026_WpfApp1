@@ -28,5 +28,19 @@ namespace _2026_WpfApp1
             string message = $"Hello, {name}! Your phone number is {phone}.";
             MessageBox.Show(message, "Information", MessageBoxButton.OK, MessageBoxImage.Information);
         }
+
+        private void number_apk_Click(object sender, RoutedEventArgs e)
+        {
+            int n = int.Parse(number_double.Text);
+
+            string result = "";
+            for (int i = 1; i <= n; i++)
+            {
+                for (int j = 1; j <= n; j++)
+                    result += $"{i}*{j}={i * j}\t\t";
+                result += "\n";
+            }
+            ansnumber.Text = result;
+        }
     }
 }
