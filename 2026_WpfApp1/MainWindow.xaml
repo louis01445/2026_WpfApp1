@@ -40,7 +40,7 @@
         </Label>
         <TextBox x:Name="phoneTextBox"  HorizontalAlignment="Left" Margin="55,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="送出" HorizontalAlignment="Left" Margin="192,164,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.13,0.843" x:Name="okbutton" Click="okbutton_Click"/>
-        <Label Content="喵" FontSize="15px" HorizontalAlignment="Left" Foreground="red" Width="139" RenderTransformOrigin="0.114,0.849" Height="30" Margin="19,0,0,290" VerticalAlignment="Bottom"/>
+        <Label Content="喵喵" FontSize="15px" HorizontalAlignment="Left" Foreground="red" Width="139" RenderTransformOrigin="0.114,0.849" Height="30" Margin="19,0,0,290" VerticalAlignment="Bottom"/>
 
 
     </Grid>
